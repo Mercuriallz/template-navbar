@@ -1,0 +1,25 @@
+        .hero-section {
+            height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/image/nathan-anderson-iYO-EGosrCo-unsplash.jpg') center center/cover no-repeat;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        .hero-section p {
+            font-size: 1.5rem;
+        }
+        .btn-custom {
+            padding: 0.75rem 2rem;
+            font-size: 1.25rem;
+            border-radius: 30px;
+        }
+        .nav-link:hover {
+            color: #007bff !important;
+            transition: color 0.3s ease;
+        }
